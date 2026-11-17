@@ -26,6 +26,8 @@ android.private_storage = True
 android.allow_backup = False
 android.enable_androidx = True
 
+android.accept_sdk_license = True
+
 p4a.bootstrap = sdl2
 p4a.branch = develop
 
