@@ -15,8 +15,9 @@ requirements = python3,kivy,requests,plyer,pypdf,pyjnius
 orientation = all
 fullscreen = 0
 
-android.api = 35
+android.api = 36
 android.minapi = 24
+android.ndk = 29
 android.archs = arm64-v8a
 
 android.permissions = INTERNET,RECORD_AUDIO,READ_EXTERNAL_STORAGE
@@ -26,6 +27,7 @@ android.allow_backup = False
 android.enable_androidx = True
 
 p4a.bootstrap = sdl2
+p4a.branch = develop
 
 [buildozer]
 
